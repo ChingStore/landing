@@ -1,0 +1,144 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: pink;
+}
+
+::selection {
+  background-color: pink;
+  color: white;
+}
+
+
+body {
+  background-color: #fff;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+
+h1, h2, h3, h4, h5, p {
+  font-family: "Inter";
+  color: #191D38;
+}
+
+
+h1 {
+  font-size: 64px;
+  max-width: 60%;
+  margin:0 auto;
+  line-height: 1.1;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+}
+
+h2 {
+  font-size: 48px;
+  max-width: 60%;
+  margin:0 auto;
+  color: white;
+  line-height: 1.1;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: 4px;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-bottom: 4px;
+}
+
+
+p.lead {
+  font-size: 24px;
+  max-width: 50%;
+  line-height: 1.35;
+  margin: 20px auto 0;
+}
+
+.logo {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #1dffae;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1.7rem 2rem;
+  color: #191D38;
+  transition: all 0.2s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12.5px 55px -5px rgba(42, 220, 156, 0.15), 0 20px 40px -15px rgba(42, 220, 156, 0.3);
+  transition: all 0.2s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.button:active {
+  transform: scale(0.97);
+  outline: none;
+}
+
+.feature {
+  padding: 2rem 0;
+}
+
+.feature p {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.feature-icon {
+  background-color: #00ffa82e;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features {
+  padding-top: 6rem;
+}
+
+.mission {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-top: -18px;
+  background-color: #191D38;
+}
+
+.mission p.lead {
+  color: white;
+  opacity: 0.8;
+  margin-bottom: 4rem;
+}
+
+.position {
+  color: white;
+  opacity: 0.6;
+}
+.phone {
+  margin-top: 8rem;
+}
