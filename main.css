@@ -164,6 +164,7 @@ p.lead {
 }
 
 .phone-mobile {
+  display: none;
   margin-top: 4rem;
   background: rgb(185,184,188); /* Old browsers */
   background: -moz-linear-gradient(180deg, rgb(255, 255, 255) 0%,rgba(221,221,226,0.3) 100%); /* FF3.6-15 */
@@ -174,11 +175,14 @@ p.lead {
 
 .phone-mobile img {
   margin-bottom: -18px;
-
 }
 
 
 @media only screen and (max-width: 500px) {
+
+  .phone-mobile {
+    display: block;
+  }
 
   .phone-desktop {
     display: none;
